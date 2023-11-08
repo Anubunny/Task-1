@@ -1,0 +1,30 @@
+body{
+    background-color:coral;
+
+
+}
+
+#container{
+background-color: antiquewhite;
+height: 65vh;
+width: 45vh;
+padding: 2px;
+text-align: center;
+justify-content: center;
+margin-left: 600px;
+margin-top: 120px;
+}
+
+#recipe-name{
+    height:20px;
+    width: 25vh;
+}
+
+#recipe-description{
+height: 60px;
+width: 30vh;
+font-size: 15px;
+}
+.font{
+    font-size: 20px;
+}

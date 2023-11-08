@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Recipe Book</h1>
+
+    <div id="recipe-form">
+        <label for="recipe-name" class="font">Recipe Name:</label><br> <br>
+        <input type="text" id="recipe-name" placeholder="Enter recipe name"><br> <br>
+        <label for="recipe-description " class="font">Ingredients:</label><br> <br>
+        <textarea id="recipe-description" placeholder="Enter recipe ingredients"></textarea><br> <br>
+        <button id="add-recipe">Add Recipe</button>
+    </div>
+
+    <div id="recipes">    
+        <h2>Recipes</h2>
+        <ul id="recipe-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
